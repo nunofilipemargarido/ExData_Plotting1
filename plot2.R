@@ -26,5 +26,5 @@ DATA$Date<-as.Date(DATA$Date)
 Sys.setlocale("LC_TIME", "English") 
 
 png("plot2.png")
-plot(DATA$DateTime,DATA$Global_active_power,type = "l",main = "Global Active Power",xlab="" )
+plot(DATA$DateTime,DATA$Global_active_power,type = "l",ylab = "Global Active Power (KiloWatts)",xlab="" )
 dev.off()
