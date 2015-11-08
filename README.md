@@ -1,3 +1,13 @@
+##Instrutions 
+*You have to package install SQLite/DBI
+*THe data file has to be put in root directory
+
+this script will create sqlite file in the root directory
+with the file data to save memory
+
+Run the script
+
+
 ## Introduction
 
 This assignment uses data from
